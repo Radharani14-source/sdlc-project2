@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ font-family: "Montserrat", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: #180F2C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.otp-container {
+  width: 620px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.otp-container h2 {
+  margin-bottom: 12px;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+.subtitle {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #cfcfe6;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.otp-inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.otp-inputs input {
+  width: 48px;
+  height: 55px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  outline: none;
+}
+
+.otp-inputs input:focus {
+  border-color: #7f7cff;
+  box-shadow: 0 0 8px rgba(127, 124, 255, 0.6);
+}
+
+.verify-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #6a5af9, #7f7cff);
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.verify-btn:hover {
+  opacity: 0.9;
+}
+
+.resend {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #cfcfe6;
+}
+
+.resend a {
+  color: #7f7cff;
+  text-decoration: none;
+}
+
+.resend a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  .otp-container {
+  width: 420px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.otp-container h2 {
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.subtitle {
+  font-size: 10px;
+  line-height: 1.6;
+  color: #cfcfe6;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.otp-inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.otp-inputs input {
+  width: 40px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  outline: none;
+}
+.verify-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #6a5af9, #7f7cff);
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.resend {
+  font-size: 10px;
+}
+
+
+}

@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(/font/Montserrat-VariableFont_wght.ttf);
+}
+
+.sidebar{
+  height:100vh;
+  background:#05010c;
+  padding:20px;
+  border-radius:20px;
+}
+.logo{
+  font-size:22px;
+  font-weight:600;
+}
+.menu li{
+  list-style:none;
+  padding:12px 15px;
+  margin:8px 0;
+  border-radius:12px;
+  cursor:pointer;
+  color:#cfcfcf;
+}
+.menu li.active,
+.menu li:hover{
+  background:linear-gradient(90deg,#6f2dbd,#3b0a63);
+  color:#fff;
+}
+.card{
+  background:#070013;
+  border-radius:20px;
+  border:none;
+  box-shadow:0 0 25px rgba(111,45,189,.15);
+}
+.search input{
+  border-radius:30px;
+  border:none;
+  padding:10px 40px 10px 15px;
+}
+.search i{
+  position:absolute;
+  right:15px;
+  top:10px;
+  color:#777;
+}
+.progress{
+  height:8px;
+  background:#1c082f;
+}
+.progress-bar{
+  background:linear-gradient(90deg,#7a2bc2,#c471ed);
+}
+small{color:#aaa}

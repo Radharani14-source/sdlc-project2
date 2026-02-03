@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Montserrat", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at top, #3a1c5a, #0d021c);
+    color: #fff;
+}
+
+.payment-container {
+    width: 720px;
+    background: linear-gradient(180deg, #2a1240, #140620);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.event-card {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.event-info {
+    max-width: 65%;
+}
+
+.category {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.event-info h2 {
+    font-size: 18px;
+    margin: 6px 0;
+}
+
+.venue {
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.event-info a {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 13px;
+    color: #9ddcff;
+    text-decoration: none;
+}
+
+.event-image img {
+    width: 130px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.event-time {
+    margin: 15px 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.event-time hr{
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    margin: 10px 0;
+}
+
+.price-box {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+
+.price-box hr {
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    margin: 10px 0;
+}
+
+.total {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.note {
+    font-size: 11px;
+    opacity: 0.6;
+    text-align: center;
+    margin: 14px 0;
+}
+
+.pay-btn {
+    width: 40%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(90deg, #2fd4ff, #1fa2ff);
+    cursor: pointer;
+    margin-left: 195px;
+}
+
+.pay-btn:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 576px) {
+    .payment-container {
+    width: 420px;
+    background: linear-gradient(180deg, #2a1240, #140620);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.event-card {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.event-info {
+    max-width: 45%;
+}
+
+.category {
+    font-size: 10px;
+    opacity: 0.8;
+}
+
+.event-info h2 {
+    font-size: 15px;
+    margin: 6px 0;
+}
+
+.venue {
+    font-size: 10px;
+    opacity: 0.8;
+}
+
+.event-info a {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 10px;
+    color: #9ddcff;
+    text-decoration: none;
+}
+
+.event-image img {
+    width: 130px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.event-time {
+    margin: 15px 0;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.event-time hr{
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    margin: 10px 0;
+}
+
+.price-box {
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+
+.price-box hr {
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    margin: 10px 0;
+}
+
+.total {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.note {
+    font-size: 10px;
+    opacity: 0.6;
+    text-align: center;
+    margin: 14px 0;
+}
+
+.pay-btn {
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(90deg, #2fd4ff, #1fa2ff);
+    cursor: pointer;
+    margin-left: 115px;
+}
+
+.pay-btn:hover {
+    opacity: 0.9;
+}
+}
